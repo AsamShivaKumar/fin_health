@@ -25,3 +25,48 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+#wave{
+  position: absolute;
+  bottom: 100px;
+}
+
+#__next{
+  overflow: hidden;
+}
+
+.instr p{
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  text-align: center;
+  /* transform: translateY(10px); */
+}
+
+.instr p:first-child{
+  transform: translateY(-10px);
+}
+
+.benDiv > span{
+  font-size: 1.2rem;
+  padding: 5px 0;
+  border-bottom: 2px solid white;
+}
+
+input{
+  color: black;
+  border: solid 2px #1d4ed8;
+  padding: 5px 20px;
+  border-radius: 5px;
+  width: 300px;
+}
+
+input:focus{
+  outline: none;
+  border: solid 2px white;
+  border-bottom: solid 2px #0c3fce;
+}
+
+.fi-ss-search{
+  color: #1d4ed8;
+}
